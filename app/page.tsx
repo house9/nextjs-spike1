@@ -2,6 +2,11 @@
 
 import { headers } from "next/headers";
 import Counter from "./ui_components/counter";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Messing around with NextJS",
+};
 
 export default function RootPage() {
   console.log("[JH] Root");
