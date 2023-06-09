@@ -3,7 +3,7 @@
 import { headers } from "next/headers";
 import Counter from "./ui_components/counter";
 
-export default function Root() {
+export default function RootPage() {
   console.log("[JH] Root");
   console.log("[JH] x-invoke-path", headers().get("x-invoke-path"));
 

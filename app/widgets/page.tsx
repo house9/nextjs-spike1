@@ -1,6 +1,6 @@
 import { headers } from "next/headers";
 
-export default function Widgets() {
+export default function WidgetsPage() {
   console.log("[JH] Widgets");
   console.log("[JH] x-invoke-path", headers().get("x-invoke-path"));
 
