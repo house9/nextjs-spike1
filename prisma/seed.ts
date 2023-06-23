@@ -31,6 +31,13 @@ async function main() {
       title: "Bass",
     },
   });
+
+  await prisma.album.create({
+    data: {
+      name: "Testing",
+      releasedOn: new Date(),
+    },
+  });
 }
 
 main()

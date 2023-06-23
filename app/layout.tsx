@@ -18,10 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="p-10">
-          <nav
-            className="bg-white border-gray-200 dark:bg-gray-900"
-            style={{ border: "solid 1px blue" }}
-          >
+          <nav className="bg-sky-500 border-gray-200 dark:bg-gray-900">
             <ul className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
               <li className="flex items-center">
                 <Link href="/">Home</Link>

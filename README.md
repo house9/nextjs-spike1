@@ -9,6 +9,8 @@ npx prisma db seed
 ```
 # dev only
 npm run db:dev:rebuild
+
+npm run db:dev:migrate -- <migration-name>
 ```
 
 ## Next.js docs
